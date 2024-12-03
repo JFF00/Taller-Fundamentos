@@ -244,11 +244,11 @@ parser=yacc.yacc()
 input_data = '''
 x=12
 z=88
-funcion pico(a,b){
+funcion prueba(a,b){
 xz=a+b
 print(xz)
 }
-pico(x,z)
+prueba(x,z)
 '''
 lexer.input(input_data)
 
